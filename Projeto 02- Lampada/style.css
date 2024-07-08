@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.imagem {
+    width: auto; /* largura da imagem */
+    height: 230px; /* altura da imagem */
+    background-size: cover; /* ajusta o tamanho da imagem para cobrir todo o elemento */
+}
+
+.imagem-1 {
+    background-image: url('/imgs/desligada.jpg'); 
+}
+.imagem-2 {
+    background-image: url('/imgs/ligada.jpg'); 
+}
+
+.imagem-3 {
+    background-image: url('/imgs/quebrada.jpg');
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.btns button{
+    width: 80px;
+    height: 25px;
+    cursor: pointer;
+}
