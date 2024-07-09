@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+header{
+    margin-top: 100px;
+    color: black;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 56px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imagem{
+    background-size: cover;
+    width: 235px;
+    height: 550px;
+}
+
+.imagem-1{
+    background-image: url(imgs/desligado.png);
+}
+
+.imagem-2{
+    background-image: url(imgs/vermelho.png);
+}
+
+.imagem-3{
+    background-image: url(imgs/amarelo.png);
+}
+
+.imagem-4{
+    background-image: url(imgs/verde.png);
+}
+
+.btns{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+}
+
+button{
+    height: 30px;
+    width: 80px;
+    cursor: pointer;
+}
