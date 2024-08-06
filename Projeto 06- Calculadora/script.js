@@ -41,7 +41,6 @@ const ponto = document.getElementById('ponto').addEventListener('click', () =>{
     updateResult('.');
 })
 
-
 const zero = document.getElementById('0').addEventListener('click', () => {
     updateResult('0');
 });
